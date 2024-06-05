@@ -1,0 +1,86 @@
+body{
+  background-image: url(w14.jpg);
+  background-size: cover;
+}
+
+body img{
+  height: 100px;
+  filter: drop-shadow(2px 2px 4px #000);
+}
+
+#container {
+  border: 2px solid black;
+  color: #fff;
+  border-radius: 5px;
+  width: 30%;
+  margin-top: 150px;
+  padding: 10px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.205);
+  transition: background-color 0.5s ease-in-out;
+}
+
+#quote-div {
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 10px auto;
+  background-color: #fff;
+  color: black;
+}
+
+.msim{
+  display: flex;
+  flex-direction: column;
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: center;
+  
+}
+
+.msim input{
+  height: 50px;
+}
+
+.msim button{
+  height: 50px;
+}
+
+.rodape {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 150px;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  text-align: center;
+  flex-direction: column;
+}
+
+
+
+
+.rodape img{
+  height: 30px;
+}
+
+.caixa{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.titulo{
+ display: flex;
+ align-items: center;
+ justify-content: space-around;
+}
+
+.titulo h1{
+  color: #fff;
+  font-size: 50px;
+  filter: drop-shadow(1px 1px 4px #000);
+}

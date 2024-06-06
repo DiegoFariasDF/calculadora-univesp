@@ -2,6 +2,7 @@ body{
   background-image: url(w14.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  height: 100vh;
 }
 
 body img{
@@ -19,7 +20,9 @@ body img{
   background-color: rgba(0, 0, 0, 0.205);
   transition: background-color 0.5s ease-in-out;
   flex-wrap: wrap;
+  
 }
+
 
 #quote-div {
   border: 1px solid black;
@@ -47,7 +50,7 @@ body img{
 }
 
 .rodape {
-  
+  margin-top: 10vh;
   bottom: 0;
   left: 0;
   width: 100%;
@@ -85,4 +88,11 @@ body img{
   color: #fff;
   font-size: 50px;
   filter: drop-shadow(1px 1px 4px #000);
-}
+}/*
+@media screen and (max-width: 850px){
+
+  
+ text-decoration: under;
+
+
+}*/

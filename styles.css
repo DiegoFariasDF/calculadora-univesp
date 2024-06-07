@@ -95,8 +95,19 @@ body img{
 
 
 
-@media screen and (max-width: 850px){
-
+@media screen and (max-width: 767px){
+  .titulo{
+    margin: auto;
+    height: auto;}
+  .caixa{
+    margin: auto;
+    height: auto;}
+  .rodape{
+    margin: auto;
+    height: auto;}
+  #container {
+    margin: auto;
+    height: auto;}
 
 
 }
